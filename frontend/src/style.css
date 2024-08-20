@@ -1,0 +1,21 @@
+body {
+    background-color: #31363F;
+}
+
+.App {
+    /* width: 96vw;
+    height: 96vh; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+}

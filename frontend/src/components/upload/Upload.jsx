@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import axios from "axios";
+import "./upload.css";
 
 const Upload = () => {
   const [file, setFile] = useState(null);
   const [content, setContent] = useState("");
+  const [llmRes, setLlmRes] = useState(false);
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -14,8 +15,8 @@ const Upload = () => {
     formData.append("file", file);
 
     try {
-      const apiEndpoint = "https://lepide-assignment.onrender.com/upload";
-      // const apiEndpoint = "http://localhost:5000/upload";
+      // const apiEndpoint = "https://lepide-assignment.onrender.com/upload";
+      const apiEndpoint = "http://localhost:5000/upload";
       const response = await fetch(apiEndpoint, {
         method: "POST",
         body: formData,
@@ -26,23 +27,22 @@ const Upload = () => {
     } catch (error) {
       console.error("Error uploading file:", error);
     }
+
+    setLlmRes(true);
   };
 
   return (
-    <div>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleUpload}>Upload</button>
-      <div
-        className="displayContent"
-        style={{
-          textWrap: "wrap",
-          border: "1px solid black",
-          margin: "10px 0",
-          padding: "5px 10px",
-        }}
-      >
-        <pre>{content}</pre>
+    <div className="upload-main">
+      <div className="upload">
+        <div className="file-upload-inp">
+          <input type="file" onChange={handleFileChange} />
+        </div>
+        <div className="upload-btn">
+          <button onClick={handleUpload}>Upload</button>
+        </div>
       </div>
+
+      {llmRes ? <div className="displayContent">{content}</div> : <div className="displayContent" style={{color: "#000"}}>Summarized content will be displayed here </div>}
     </div>
   );
 };
