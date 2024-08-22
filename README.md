@@ -1,5 +1,10 @@
 # Lepide Assignment
 
+## Web App Demo Video Link:
+```
+https://drive.google.com/file/d/1pQwAH4h-9KzcLOMbWHsPxEbR3EXbm6-W/view?usp=sharing
+```
+
 ## Description
 This is a web-app which allows user to upload .txt files and displays the content of the file in the web browser.
 
