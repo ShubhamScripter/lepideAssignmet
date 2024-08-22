@@ -1,16 +1,14 @@
 # Lepide Assignment
 
 ## Web App Demo Video Link:
-```
-https://drive.google.com/file/d/1pQwAH4h-9KzcLOMbWHsPxEbR3EXbm6-W/view?usp=sharing
-```
+[Demo Video Link](https://drive.google.com/file/d/1pQwAH4h-9KzcLOMbWHsPxEbR3EXbm6-W/view?usp=sharing)
 
 ## Description
 This is a web-app which allows user to upload .txt files and displays the content of the file in the web browser.
 
 ## For running the application locally
 ### Clone this repository in your local machine
-[Demo Video Link](git clone https://github.com/srijan-99/lepide-assignment)
+git clone https://github.com/srijan-99/lepide-assignment
 
 ## Installation
 1. Clone this repository to your local machine.
