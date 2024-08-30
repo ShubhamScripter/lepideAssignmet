@@ -8,7 +8,7 @@ This is a web-app which allows user to upload .txt files and displays the conten
 
 ## For running the application locally
 ### Clone this repository in your local machine
-git clone https://github.com/srijan-99/lepide-assignment
+git clone https://github.com/ShubhamScripter/lepideAssignmet
 
 ## Installation
 1. Clone this repository to your local machine.
