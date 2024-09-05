@@ -1,7 +1,7 @@
 # Lepide Assignment
 
-## Web App Demo Video Link:
-[Demo Video Link](https://drive.google.com/file/d/1pQwAH4h-9KzcLOMbWHsPxEbR3EXbm6-W/view?usp=sharing)
+
+
 
 ## Description
 This is a web-app which allows user to upload .txt files and displays the content of the file in the web browser.
@@ -60,8 +60,3 @@ npm run start
 - React.js
 - Node.js
 
-## Contributors
-- [Srijan Ojha](https://www.github.com/srijan-99)
-
-## Contact
-For inquiries or support, please contact [srijanojha26@gmail.com](mailto:srijanojha26@gmail.com)
